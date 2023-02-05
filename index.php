@@ -4,91 +4,67 @@ $name = isset($_GET['name']) ? $_GET['name'] : 'Anonymous';
 
 
 ?>
-<!doctype html>
-<html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.104.2">
-    <title>Sticky Footer Template · Bootstrap v5.2</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer/">
-
-    
-
-    
-
-<link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
-<meta name="theme-color" content="#712cf9">
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="sticky-footer.css" rel="stylesheet">
-  </head>
+<!DOCTYPE html>
+<!--[if lte IE 9]>
+<html class="ie" lang="en">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap v5 Bug Report Template</title>
+<link rel="dns-prefetch" href="https://fast.appcues.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@CodePen">
+<meta name="twitter:title" content="Bootstrap v5 Bug Report Template">
+<meta name="twitter:description" content="A Bootstrap v5 bug report template....">
+<meta name="twitter:image" content="https://shots.codepen.io/team/bootstrap/pen/qBamdLj-800.jpg?version=1652284874">
+<meta property="og:image" content="https://shots.codepen.io/team/bootstrap/pen/qBamdLj-800.jpg?version=1652284874" itemprop="thumbnailUrl">
+<meta property="og:title" content="Bootstrap v5 Bug Report Template">
+<meta property="og:url" content="https://codepen.io/team/bootstrap/details/qBamdLj">
+<meta property="og:site_name" content="CodePen">
+<meta property="og:description" content="A Bootstrap v5 bug report template....">
+<link rel="alternate" type="application/json+oembed" href="https://codepen.io/api/oembed?url=https%3A%2F%2Fcodepen.io%2Fteam%2Fbootstrap%2Fpen%2FqBamdLj&format=json" title="Bootstrap v5 Bug Report Template" />
+<link rel="stylesheet" media="all" href="https://cpwebassets.codepen.io/assets/global/global-0b932d80445462f790a3461ec6768eb7290edbe769dd2e1c4efaedafa5582d5c.css" />
+<link rel="stylesheet" media="screen" href="https://cpwebassets.codepen.io/assets/packs/css/everypage-b6b2efde.css" />
+<link rel="stylesheet" media="all" href="https://cpwebassets.codepen.io/assets/editor/editor-f7fe2b17a4e996509b86608d7cd3f58f9c115715b6157070005c6e7df9ecf341.css" />
+<meta name="description" content="A Bootstrap v5 bug report template....">
+<link rel="stylesheet" media="screen" href="https://cpwebassets.codepen.io/assets/editor/themes/twilight-19c825839a52a64ea677dad9fb60edc18e80419bf29879c0353d1de3c5e9ac42.css" id="cm-theme" />
+<style id="cm-font-family" class="cm-font-family" nonce="6/WuQBx9hgc=">
+  
+  .CodeMirror,
+  .console-logs .console-line,
+  .console-command-line-input,
+  .console-message,
+  .CodeMirror-hint {
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo,
+  monospace;
+  }
+</style>
+<style id="cm-font-size" nonce="6/WuQBx9hgc=">
+  .CodeMirror,
+  .console-logs .console-line,
+  .console-command-line-input,
+  .console-message,
+  .CodeMirror-hint {
+    font-size: 14px;
+  }
+</style>
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="WBc7te+4i0HWjNZOsHVIvwA3/T3oTvfRQXVZKX5uILrznzEw35sm5yu+FQ9F9OP0rX+PqTiRp8yxxRRiU8t5Fw==" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="monetization" content="$ilp.uphold.com/biyqg2MkQKbe">
+<script nonce="6/WuQBx9hgc=">
+  /* Firefox needs this to prevent FOUT */
+</script>
+</head>
   <body class="d-flex flex-column h-100">
     
 <!-- Begin page content -->
